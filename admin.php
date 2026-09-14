@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 $PASSWORD='Sourav@2026!'; // Change this before publishing.
 $uploadDir=__DIR__.'/uploads/';
